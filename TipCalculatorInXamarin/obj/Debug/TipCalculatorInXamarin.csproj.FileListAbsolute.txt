@@ -1,0 +1,6 @@
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/TipCalculatorInXamarin/bin/Debug/TipCalculatorInXamarin.dll
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/TipCalculatorInXamarin/bin/Debug/TipCalculatorInXamarin.pdb
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/TipCalculatorInXamarin/obj/Debug/TipCalculatorInXamarin.csprojResolveAssemblyReference.cache
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/TipCalculatorInXamarin/obj/Debug/TipCalculatorInXamarin.csproj.CoreCompileInputs.cache
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/TipCalculatorInXamarin/obj/Debug/TipCalculatorInXamarin.dll
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/TipCalculatorInXamarin/obj/Debug/TipCalculatorInXamarin.pdb

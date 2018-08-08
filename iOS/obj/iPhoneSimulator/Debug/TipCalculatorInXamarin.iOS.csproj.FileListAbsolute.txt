@@ -1,0 +1,14 @@
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/bin/iPhoneSimulator/Debug/TipCalculatorInXamarin.iOS.exe
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/bin/iPhoneSimulator/Debug/TipCalculatorInXamarin.iOS.pdb
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/bin/iPhoneSimulator/Debug/TipCalculatorInXamarin.dll
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/bin/iPhoneSimulator/Debug/TipCalculatorInXamarin.pdb
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/ibtool/_BundleResourceWithLogicalName.items
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_PartialAppManifest.items
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/actool/_BundleResourceWithLogicalName.items
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_PartialAppManifest.items
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/coremlc/_BundleResourceWithLogicalName.items
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/device-builds/iphone10.3-11.4/optimized/
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/TipCalculatorInXamarin.iOS.csprojResolveAssemblyReference.cache
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/TipCalculatorInXamarin.iOS.csproj.CoreCompileInputs.cache
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/TipCalculatorInXamarin.iOS.exe
+/Users/taniiasami/Documents/Xamarin/TipCalculatorInXamarin/iOS/obj/iPhoneSimulator/Debug/TipCalculatorInXamarin.iOS.pdb
