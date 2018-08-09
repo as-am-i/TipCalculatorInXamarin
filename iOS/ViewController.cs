@@ -35,6 +35,11 @@ namespace TipCalculatorInXamarin.iOS
                 calculateTip();
             }, UIControlEvent.EditingChanged);
 
+            tipPercentageSlider.ValueChanged += (sender, e) =>
+            {
+                adjustTipPercentage((int)tipPercentageSlider.Value);
+            };
+
         }
 
         public override void DidReceiveMemoryWarning()
@@ -64,6 +69,12 @@ namespace TipCalculatorInXamarin.iOS
             {
                 tipAmountLabel.Text = "Invalid Bill";
             }
+        }
+
+        public void adjustTipPercentage(int tipPercentage)
+        {
+            tipPercentageTextField.Text = tipPercentage.ToString();
+            calculateTip();
         }
     }
 }

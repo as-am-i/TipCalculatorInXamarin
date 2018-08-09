@@ -30,6 +30,10 @@ namespace TipCalculatorInXamarin.iOS
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UISlider tipPercentageSlider { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UITextField tipPercentageTextField { get; set; }
 
         void ReleaseDesignerOutlets ()
@@ -47,6 +51,11 @@ namespace TipCalculatorInXamarin.iOS
             if (tipAmountLabel != null) {
                 tipAmountLabel.Dispose ();
                 tipAmountLabel = null;
+            }
+
+            if (tipPercentageSlider != null) {
+                tipPercentageSlider.Dispose ();
+                tipPercentageSlider = null;
             }
 
             if (tipPercentageTextField != null) {

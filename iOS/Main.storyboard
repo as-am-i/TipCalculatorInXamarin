@@ -52,6 +52,9 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <slider opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" value="15" minValue="0" maxValue="100" id="1413" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="147" y="505" width="118" height="31"/>
+                            </slider>
                         </subviews>
                     </view>
                     <connections>
@@ -59,6 +62,7 @@
                         <outlet property="tipAmountLabel" destination="205" id="name-outlet-205"/>
                         <outlet property="tipPercentageTextField" destination="207" id="name-outlet-207"/>
                         <outlet property="calculateButton" destination="204" id="name-outlet-204"/>
+                        <outlet property="tipPercentageSlider" destination="1413" id="name-outlet-1413"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
