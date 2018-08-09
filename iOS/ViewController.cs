@@ -1,5 +1,5 @@
 ﻿using System;
-
+using Foundation;
 using UIKit;
 
 namespace TipCalculatorInXamarin.iOS
@@ -24,6 +24,17 @@ namespace TipCalculatorInXamarin.iOS
             {
                 calculateTip();
             };
+
+            billAmountTextField.AddTarget((sender, e) =>
+            {
+                calculateTip();
+            }, UIControlEvent.EditingChanged);
+
+            tipPercentageTextField.AddTarget((sender, e) =>
+            {
+                calculateTip();
+            }, UIControlEvent.EditingChanged);
+
         }
 
         public override void DidReceiveMemoryWarning()
