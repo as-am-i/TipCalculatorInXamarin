@@ -27,8 +27,26 @@ namespace TipCalculatorInXamarin.Droid
 		public partial class Id
 		{
 			
+			// aapt resource value: 0x7F010003
+			public const int billAmountText = 2130771971;
+			
+			// aapt resource value: 0x7F010006
+			public const int calculateButton = 2130771974;
+			
 			// aapt resource value: 0x7F010002
-			public const int myButton = 2130771970;
+			public const int textView1 = 2130771970;
+			
+			// aapt resource value: 0x7F010004
+			public const int textView2 = 2130771972;
+			
+			// aapt resource value: 0x7F010007
+			public const int tipAmountResult = 2130771975;
+			
+			// aapt resource value: 0x7F010005
+			public const int tipPercentageText = 2130771973;
+			
+			// aapt resource value: 0x7F010008
+			public const int tipSeekBar = 2130771976;
 			
 			static Id()
 			{
