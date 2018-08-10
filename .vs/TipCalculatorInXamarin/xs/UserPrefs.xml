@@ -1,11 +1,13 @@
 ﻿<Properties StartupConfiguration="{49A3BA25-2C61-4C8B-8DC3-6EEC9A85E5F5}|Default">
-  <MonoDevelop.Ide.Workbench ActiveDocument="iOS/ViewController.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="TipCalculatorInXamarin/MyClass.cs">
     <Files>
       <File FileName="iOS/Main.storyboard" />
-      <File FileName="iOS/ViewController.cs" Line="1" Column="1" />
+      <File FileName="iOS/ViewController.cs" Line="62" Column="21" />
+      <File FileName="Droid/MainActivity.cs" Line="1" Column="1" />
+      <File FileName="TipCalculatorInXamarin/MyClass.cs" Line="1" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.ItemProperties.TipCalculatorInXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9759A24C-0E7A-4043-B049-988880435493" FirstBuild="True">
+  <MonoDevelop.Ide.ItemProperties.TipCalculatorInXamarin.iOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneSimulatorTarget.9759A24C-0E7A-4043-B049-988880435493">
     <MonoDevelop.MacDev.AppleDevelopmentTeam />
   </MonoDevelop.Ide.ItemProperties.TipCalculatorInXamarin.iOS>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
@@ -13,7 +15,6 @@
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.TipCalculatorInXamarin FirstBuild="True" />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.TipCalculatorInXamarin.Droid FirstBuild="True" />
+  <MonoDevelop.Ide.ItemProperties.TipCalculatorInXamarin.Droid AndroidDesignerPreferredDevice="Nexus 4" FirstBuild="True" />
 </Properties>

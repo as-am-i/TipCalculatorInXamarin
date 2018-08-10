@@ -1,0 +1,3 @@
+TipCalculatorInXamarin.Droid.MainActivity, TipCalculatorInXamarin.Droid;md5c161e1907b5a5ba5454fce64fac9566f.MainActivity
+TipCalculatorInXamarin.Droid.MainActivity;md5c161e1907b5a5ba5454fce64fac9566f.MainActivity
+tipcalculatorinxamarin.droid.MainActivity;md5c161e1907b5a5ba5454fce64fac9566f.MainActivity

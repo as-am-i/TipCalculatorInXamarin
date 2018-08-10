@@ -6,12 +6,6 @@ namespace TipCalculatorInXamarin.iOS
 {
     public partial class ViewController : UIViewController
     {
-        private string textFieldString = "";
-        private string textFieldTip = "";
-
-        private double tipAmount;
-
-
         public ViewController(IntPtr handle) : base(handle)
         {
         }
@@ -20,61 +14,31 @@ namespace TipCalculatorInXamarin.iOS
         {
             base.ViewDidLoad();
 
+            TipCalculator calc = new TipCalculator();
+
             calculateButton.TouchUpInside += (object sender, EventArgs e) =>
             {
-                calculateTip();
+                tipAmountLabel.Text = calc.calculateTip(billAmountTextField.Text, tipPercentageTextField.Text);
             };
 
             billAmountTextField.AddTarget((sender, e) =>
             {
-                calculateTip();
+                tipAmountLabel.Text = calc.calculateTip(billAmountTextField.Text, tipPercentageTextField.Text);
             }, UIControlEvent.EditingChanged);
 
             tipPercentageTextField.AddTarget((sender, e) =>
             {
-                calculateTip();
+                tipAmountLabel.Text = calc.calculateTip(billAmountTextField.Text, tipPercentageTextField.Text);
             }, UIControlEvent.EditingChanged);
 
             tipPercentageSlider.ValueChanged += (sender, e) =>
             {
-                adjustTipPercentage((int)tipPercentageSlider.Value);
+                int tipPercentage = (int)tipPercentageSlider.Value;
+
+                tipPercentageTextField.Text = tipPercentage.ToString();
+                tipAmountLabel.Text = calc.adjustTipPercentage(billAmountTextField.Text, tipPercentage);
             };
 
-        }
-
-        public override void DidReceiveMemoryWarning()
-        {
-            base.DidReceiveMemoryWarning();
-            // Release any cached data, images, etc that aren't in use.		
-        }
-
-        public void calculateTip()
-        {
-            textFieldString = billAmountTextField.Text;
-            textFieldTip = tipPercentageTextField.Text;
-
-            if (textFieldString != "")
-            {
-                if (textFieldTip != "")
-                {
-                    tipAmount = double.Parse(textFieldString) * double.Parse(textFieldTip) * 0.01;
-                }
-                else
-                {
-                    tipAmount = double.Parse(textFieldString) * 0.15;
-                }
-                tipAmountLabel.Text = $"Tip: {tipAmount}";
-            }
-            else
-            {
-                tipAmountLabel.Text = "Invalid Bill";
-            }
-        }
-
-        public void adjustTipPercentage(int tipPercentage)
-        {
-            tipPercentageTextField.Text = tipPercentage.ToString();
-            calculateTip();
         }
     }
 }
